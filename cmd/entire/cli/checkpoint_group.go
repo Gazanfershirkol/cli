@@ -40,6 +40,7 @@ Examples:
 	cmd.AddCommand(newCheckpointResumeCmd())
 	cmd.AddCommand(newExplainCmd())
 	cmd.AddCommand(newCheckpointTokensCmd())
+	cmd.AddCommand(newIntentDriftCmd())
 	experimental.Register(cmd, newCheckpointPolicyCmd()) // 'checkpoint policy' (experimental)
 	cmd.AddCommand(newCheckpointSearchCmd())
 
